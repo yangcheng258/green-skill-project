@@ -10,4 +10,4 @@ plugins:
 
 github:
       # zip_url: http://example.com/download.zip
-      index_url: https://github.com/yangcheng258/green_skill-based_recommendation/blob/ca81067932d3c116ac94212145271a4f573d6782/_data/S3_occupational_green_potential.csv
+      index_url: https://github.com/yangcheng258/green-skill-recommendation/blob/d6f338d7aea2387a89014a9806dc5631b86f5a8e/_data/S3_occupational_green_potential.csv
