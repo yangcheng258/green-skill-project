@@ -1,0 +1,13 @@
+title: Skill-based Recommendation System for Green Jobs
+description: This website provides supporting materials for the green skill-based recommendation system.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
+
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+github:
+      # zip_url: http://example.com/download.zip
+      index_url: https://github.com/yangcheng258/green_skill-based_recommendation/blob/ca81067932d3c116ac94212145271a4f573d6782/_data/S3_occupational_green_potential.csv
