@@ -31,7 +31,7 @@ What are green skills?
 
 ----------
 # Others
-- [Skill Spcae using full set of skills](./assets/skillspace/AllSkillSpace_cluster_plot.html)
+- [Skill Space using full set of skills](./assets/skillspace/AllSkillSpace_cluster_plot.html)
 - Crosswalk.
 
 
