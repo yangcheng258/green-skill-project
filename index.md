@@ -12,7 +12,7 @@ What are green skills?
 
 ----------
 # [Interactive Green Skill Space.](./green-skill-space.md)
-- For all jobs in the economy, their green category, and their locatio in the green skill space.
+- For all jobs in the economy, their green category, and their location in green skill space.
 - Green skill space by the level of education, experiences, and training (job zone).
 
 ----------
