@@ -25,28 +25,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=829f35992244604bd841eff3f211676fbe8951c2">
-    <style>
+    <link rel="stylesheet" href="/assets/css/style.css?v=1222567942bda529b4f791b314d7c736bacc9369">
+    <!-- <style>
       .gallery {
         display: flex;
+        gap: 2rem; /* space between the items */
         justify-content: space-between;
-        gap: 0.5rem;
       }
       .gallery figure {
         flex: 1;
         margin: 0;
+        padding: 1rem;            /* space inside the rectangle */
+        border: 2px solid #ccc;   /* rectangle line */
+        border-radius: 8px;       /* optional rounded corners */
+        background: #fafafa;      /* optional light background */
         text-align: center;
       }
-      .gallery figcaption {
-        font-weight: bold;
-        margin-bottom: 0.5rem;
+      .gallery h2 {
+        font-size: 1.25rem;
+        margin: 0 0 .5rem 0;
+      }
+      .gallery p {
+        margin: 0 0 1rem 0;
       }
       .gallery img {
         max-width: 100%;
         height: auto;
         display: block;
       }
+    </style> -->
+
+    <style>
+      .gallery {
+        display: flex;
+        gap: 2rem; /* space between items */
+        justify-content: flex-start;
+        flex-wrap: wrap; /* allows wrapping on small screens */
+      }
+      .gallery figure {
+        width: 320px;          /* fixed width */
+        height: 420px;         /* fixed height */
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1rem;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        background: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   /* center title & image */
+        justify-content: flex-start;
+        text-align: center;    /* centers the h2 */
+      }
+      .gallery h2 {
+        font-size: 1.25rem;
+        margin: 0 0 .5rem 0;
+      }
+      .gallery p {
+        margin: 0 0 .75rem 0;
+        width: 100%;
+        text-align: left;      /* left-align description */
+        flex-grow: 0;
+      }
+      .gallery img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: .75rem;
+      }
+      .gallery .links {
+        margin-top: auto;      /* push links to bottom if space */
+        width: 100%;
+        text-align: left;
+      }
+      .gallery .links a {
+        display: inline-block;
+        margin-right: 1rem;
+      }
     </style>
+    
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->

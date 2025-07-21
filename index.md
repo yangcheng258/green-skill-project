@@ -36,31 +36,62 @@ What are green skills?
 - Crosswalk. -->  
 
 
+ 
+
+<!-- <div class="gallery">
+  <figure>
+    <h2 style="margin-bottom:0.25rem;">
+      <a href="{{ '/green-skill-based-recommendation-system/index.html' | relative_url }}">
+        Green Skill-based Recommendation System
+      </a>
+    </h2>
+    <p style="margin-top:0;">Interactive tools to explore green skill space and dissimilarity.</p>
+    <a href="{{ '/green-skill-based-recommendation-system/index.html' | relative_url }}">
+      <img src="{{ site.baseurl }}/assets/pic/greenskills.png" alt="Lasso diagram">
+    </a>
+  </figure>
+
+
+
+  <figure>
+    <h2 style="margin-bottom:0.25rem;">
+      <a href="{{ '/green-occupational-potential-index/index.html' | relative_url }}">
+        Measuring greenness of occupations - a task-based approach
+      </a>
+    </h2>
+    <p style="margin-top:0;">Data and methodology for the Occupational Green Potential index.</p>
+    <a href="{{ '/green-occupational-potential-index/index.html' | relative_url }}">
+      <img src="{{ site.baseurl }}/assets/pic/GreenJobsWorkflow.png" alt="OGP">
+    </a>
+  </figure>
+</div> -->
+
+
 <div class="gallery">
   <figure>
-    <figcaption>Green Skill-based Recommendation System</figcaption>
-    <!-- <a href="{% link green-skill-based-recommendation-system/index.md %}"> -->
+    <h2><a href="{{ '/green-skill-based-recommendation-system/index.html' | relative_url }}">Green Skill-based Recommendation System</a></h2>
+    <p>Interactive tools to explore green skill space and skill dissimilarity.</p>
     <a href="{{ '/green-skill-based-recommendation-system/index.html' | relative_url }}">
-      <img src="{{ site.baseurl }}/assets/pic/green-skill-recommendation-system.png" alt="Lasso diagram">
+      <img src="{{ site.baseurl }}/assets/pic/greenskills.png" alt="Green Skill System">
     </a>
+    <div class="links">
+      <!-- <a href="{{ site.baseurl }}/assets/slides/greenskills_slides.pdf">Slides</a>
+      <a href="{{ site.baseurl }}/assets/papers/greenskills_workingpaper.pdf">Working Paper</a> -->
+    </div>
   </figure>
 
- 
   <figure>
-    <figcaption>Measuring greenness of occupations - a task-based approach</figcaption>
-    <!-- <a href="{% link green-occupational-potential-index/index.md %}"> -->
-        <a href="{{ '/green-occupational-potential-index/index.html' | relative_url }}">
-      <img src="{{ site.baseurl }}/assets/pic/Lasso.png" alt="Placeholder image">
+    <h2><a href="{{ '/green-occupational-potential-index/index.html' | relative_url }}">Measuring Greenness of Occupations</a></h2>
+    <p>Task-based approach to the Occupational Green Potential index.</p>
+    <a href="{{ '/green-occupational-potential-index/index.html' | relative_url }}">
+      <img src="{{ site.baseurl }}/assets/pic/GreenJobsWorkflow.png" alt="OGP">
     </a>
+    <div class="links">
+      <!-- <a href="{{ site.baseurl }}/assets/slides/ogp_slides.pdf">Slides</a>
+      <a href="{{ site.baseurl }}/assets/papers/ogp_workingpaper.pdf">Working Paper</a> -->
+    </div>
   </figure>
-
- 
 </div>
-
-
-
-
-
 
 
 <!-- 

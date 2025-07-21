@@ -25,21 +25,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=829f35992244604bd841eff3f211676fbe8951c2">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1222567942bda529b4f791b314d7c736bacc9369">
     <style>
       .gallery {
         display: flex;
+        gap: 2rem; /* space between the items */
         justify-content: space-between;
-        gap: 0.5rem;
       }
       .gallery figure {
         flex: 1;
         margin: 0;
+        padding: 1rem;            /* space inside the rectangle */
+        border: 2px solid #ccc;   /* rectangle line */
+        border-radius: 8px;       /* optional rounded corners */
+        background: #fafafa;      /* optional light background */
         text-align: center;
       }
-      .gallery figcaption {
-        font-weight: bold;
-        margin-bottom: 0.5rem;
+      .gallery h2 {
+        font-size: 1.25rem;
+        margin: 0 0 .5rem 0;
+      }
+      .gallery p {
+        margin: 0 0 1rem 0;
       }
       .gallery img {
         max-width: 100%;
