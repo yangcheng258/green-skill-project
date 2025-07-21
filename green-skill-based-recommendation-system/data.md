@@ -18,6 +18,6 @@ permalink: /data/
 What are green skills?
 <img src="../assets/pic/Lasso.png" alt="Lasso diagram" class="limited">
 
-[Back to home](../)
+[Back](./)
 <!-- Add more content here if needed -->
 

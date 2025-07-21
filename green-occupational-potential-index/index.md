@@ -17,7 +17,8 @@ permalink: /green-occupational-potential-index/
 
 
 
-
+----------
+[Back](./)
 
 <!-- 
 

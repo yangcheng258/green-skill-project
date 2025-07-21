@@ -41,9 +41,9 @@ What are green skills?
 
  
 
- ----------
-[Back](../)
 
+----------
+[Back](./)
 
 <!-- 
 
