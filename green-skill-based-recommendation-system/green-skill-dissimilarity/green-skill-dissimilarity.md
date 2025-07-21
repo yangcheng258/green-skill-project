@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Green Skill Dissimilarity
-description: "Interactive green skill dissimilarity heatmaps by job zone"
-permalink: /green-skill-based-recommendation-system/green-skill-dissimilarity/
+description: "Interactive green skill dissimilarity heatmaps by job zone."
+permalink: /green-skill-project/green-skill-dissimilarity/
 ---
 
 

@@ -2,7 +2,7 @@
 layout: default
 title:  "Green Skill Space"
 description: "Interactive maps for the Green Skill Space."
-permalink: /green-skill-based-recommendation-system/green-skill-space/
+permalink: /green-skill-project/green-skill-space/
 ---
 
 # Green Skill Space
