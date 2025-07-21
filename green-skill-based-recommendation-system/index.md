@@ -27,7 +27,7 @@ What are green skills?
 
 ----------
 
-# [Data](./data.md)
+# [Data](./green-skill-data.md)
 - Occupational **Green Potentia Index**.
 - Green occuptions.
 - Brown occuptions.
