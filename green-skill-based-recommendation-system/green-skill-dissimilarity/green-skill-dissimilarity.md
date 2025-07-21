@@ -2,7 +2,7 @@
 layout: default
 title: Green Skill Dissimilarity
 description: "Interactive green skill dissimilarity heatmaps by job zone."
-permalink: /green-skill-project/green-skill-dissimilarity/
+permalink: /green-skill-based-recommendation-system/green-skill-dissimilarity/
 ---
 
 
@@ -90,53 +90,53 @@ Select a **Job Zone** and a **Feature Group** to view the corresponding heatmap:
 {% raw %}
 <!-- Skills -->
 <div id="zone-1-skills" class="heatmap-frame">
-  <iframe src="../assets/heatmaps/heatmap_skills_jobzone_1.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_skills_jobzone_1.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-2-skills" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_skills_jobzone_2.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_skills_jobzone_2.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-3-skills" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_skills_jobzone_3.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_skills_jobzone_3.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-4-skills" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_skills_jobzone_4.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_skills_jobzone_4.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-5-skills" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_skills_jobzone_5.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_skills_jobzone_5.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 
 <!-- Knowledge -->
 <div id="zone-1-knowledge" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_knowledge_jobzone_1.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_knowledge_jobzone_1.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-2-knowledge" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_knowledge_jobzone_2.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_knowledge_jobzone_2.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-3-knowledge" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_knowledge_jobzone_3.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_knowledge_jobzone_3.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-4-knowledge" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_knowledge_jobzone_4.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_knowledge_jobzone_4.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-5-knowledge" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_knowledge_jobzone_5.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_knowledge_jobzone_5.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 
 <!-- Work Activities -->
 <div id="zone-1-workactivities" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_workactivities_jobzone_1.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_workactivities_jobzone_1.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-2-workactivities" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_workactivities_jobzone_2.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_workactivities_jobzone_2.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-3-workactivities" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_workactivities_jobzone_3.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_workactivities_jobzone_3.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-4-workactivities" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_workactivities_jobzone_4.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_workactivities_jobzone_4.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 <div id="zone-5-workactivities" class="heatmap-frame" style="display:none;">
-  <iframe src="../assets/heatmaps/heatmap_workactivities_jobzone_5.html" width="1200" height="900" frameborder="0"></iframe>
+  <iframe src="./assets/heatmaps/heatmap_workactivities_jobzone_5.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
 {% endraw %}
 
