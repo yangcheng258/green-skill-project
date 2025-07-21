@@ -39,7 +39,8 @@ What are green skills?
 <div class="gallery">
   <figure>
     <figcaption>Green Skill-based Recommendation System</figcaption>
-    <a href="{% link green-skill-based-recommendation-system/index.md %}">
+    <!-- <a href="{% link green-skill-based-recommendation-system/index.md %}"> -->
+    <a href="{{ '/green-skill-based-recommendation-system/index.md' | relative_url }}">
       <img src="{{ site.baseurl }}/assets/pic/green-skill-recommendation-system.png" alt="Lasso diagram">
     </a>
   </figure>
