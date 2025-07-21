@@ -1,60 +1,18 @@
 ---
 layout: default
+title:  "Measuring Greenness of Occupations - A Task-based Approach"
+description: "Upcoming"
+permalink: /green-occupational-potential-index/
 ---
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
 
 
-<!-- # Green Skills
-What are green skills?
-<img src="./assets/pic/Lasso.png" alt="Lasso diagram" class="limited">
-
-
-----------
-# [Interactive Green Skill Space.](./green-skill-space.md)
-- For all jobs in the economy, their green category, and their location in green skill space.
-- Green skill space by the level of education, experiences, and training (job zone).
-
-----------
-
-# [Interactive Green Skill Dissimilarity between any pair of occupations.](./green-skill-dissimilarity.md)
-- Interactive heatmaps show green skill dissimilarity by job zone along with detailed green skill differences.  
-<!-- - A quick preview here! [The green skill dissimilarity heatmap for all jobs. ](./assets/heatmaps/Heatmap_interactive_heatmap_blue.html) -->
-
-<!-- ----------
-
-# [Data](./data.md)
-- Occupational **Green Potentia Index**.
-- Green occuptions.
-- Brown occuptions.
-- Skills and job zones.
-
-----------
-# Others
-- [Skill Space using full set of skills](./assets/skillspace/AllSkillSpace_cluster_plot.html)
-- Crosswalk. -->  
-
-
-<div class="gallery">
-  <figure>
-    <figcaption>Green Skill-based Recommendation System</figcaption>
-    <a href="{% link green-skill-based-recommendation-system/index.md
- %}">
-      <img src="{{ site.baseurl }}/assets/pic/green-skill-recommendation-system.png" alt="Lasso diagram">
-    </a>
-  </figure>
-
-
-  <figure>
-    <figcaption>Measuring greenness of occupations - a task-based approach</figcaption>
-    <a href="{% link green-occupational-potential-index/index.md %}">
-      <img src="{{ site.baseurl }}/assets/pic/Lasso.png" alt="Placeholder image">
-    </a>
-  </figure>
-
+# Working paper upon request.
  
-</div>
+ 
 
+[Occupational Green Potential [CSV]](https://github.com/yangcheng258/green-skill-recommendation/blob/d6f338d7aea2387a89014a9806dc5631b86f5a8e/_data/S3_occupational_green_potential.csv)  
 
 
 

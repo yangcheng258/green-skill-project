@@ -1,80 +1,14 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Green Skill Dissimilarity | Green Skill Project</title>
-<meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="Green Skill Dissimilarity" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Interactive green skill dissimilarity heatmaps by job zone" />
-<meta property="og:description" content="Interactive green skill dissimilarity heatmaps by job zone" />
-<link rel="canonical" href="http://localhost:4000/green-skill-dissimilarity/" />
-<meta property="og:url" content="http://localhost:4000/green-skill-dissimilarity/" />
-<meta property="og:site_name" content="Green Skill Project" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Green Skill Dissimilarity" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Interactive green skill dissimilarity heatmaps by job zone","headline":"Green Skill Dissimilarity","url":"http://localhost:4000/green-skill-dissimilarity/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=0fa7826d0d7e1add6569189c88481cf4d9597931">
-    <style>
-      .gallery {
-        display: flex;
-        justify-content: space-between;
-        gap: 0.5rem;
-      }
-      .gallery figure {
-        flex: 1;
-        margin: 0;
-        text-align: center;
-      }
-      .gallery figcaption {
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-      }
-      .gallery img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-      }
-    </style>
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
+---
+layout: default
+title: Green Skill Dissimilarity
+description: "Interactive green skill dissimilarity heatmaps by job zone"
+permalink: /green-skill-dissimilarity/
+---
 
 
+## Interactive Green Skill Dissimilarity
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-      <h1 class="project-name">Green Skill Dissimilarity</h1>
-      <h2 class="project-tagline">Interactive green skill dissimilarity heatmaps by job zone</h2>
-      
-        <a href="https://github.com/yangcheng258/green-skill-recommendation" class="btn">View on GitHub</a>
-      
-      
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      <h2 id="interactive-green-skill-dissimilarity">Interactive Green Skill Dissimilarity</h2>
-
-<p>This interactive heatmap shows the green skill dissimilarity between any two occupations, with detailed comparisons of individual green skill differences. Please choose the <a href="https://www.onetonline.org/help/online/zones">Job Zone</a> and skill group you’re interested in:</p>
+This interactive heatmap shows the green skill dissimilarity between any two occupations, with detailed comparisons of individual green skill differences. Please choose the [Job Zone](https://www.onetonline.org/help/online/zones) and skill group you’re interested in:
 
 <!-- <select id="zone-select"
         onchange="switchZone()"
@@ -90,7 +24,7 @@
 
 
  
-
+{% raw %}
 <div id="zone-1" class="heatmap-frame">
   <iframe src="../assets/heatmaps/heatmap_jobzone_1.html"
           width="1200" height="900" frameborder="0"></iframe>
@@ -122,15 +56,19 @@ function switchZone() {
 // initialize on page load
 switchZone();
 </script>
-
+{% endraw %}
 
 [Back to home](../)
 Add more content here if needed -->
-
-<p>Select a <strong>Job Zone</strong> and a <strong>Feature Group</strong> to view the corresponding heatmap:</p>
+ 
+Select a **Job Zone** and a **Feature Group** to view the corresponding heatmap:
 
 <div style="margin-bottom:1rem;">
-  <select id="zone-select" onchange="updateHeatmap()" style="font-size: 1.25rem; padding: 0.5rem; width: 260px; margin-right: 1rem;">
+  <select
+    id="zone-select"
+    onchange="updateHeatmap()"
+    style="font-size: 1.25rem; padding: 0.5rem; width: 260px; margin-right: 1rem;"
+  >
     <option value="1">Job Zone 1 – Little or no preparation</option>
     <option value="2">Job Zone 2 – Some preparation</option>
     <option value="3">Job Zone 3 – Medium preparation</option>
@@ -138,13 +76,18 @@ Add more content here if needed -->
     <option value="5">Job Zone 5 – Extensive preparation</option>
   </select>
 
-  <select id="group-select" onchange="updateHeatmap()" style="font-size: 1.25rem; padding: 0.5rem; width: 260px;">
+  <select
+    id="group-select"
+    onchange="updateHeatmap()"
+    style="font-size: 1.25rem; padding: 0.5rem; width: 260px;"
+  >
     <option value="skills">Skills</option>
     <option value="knowledge">Knowledge</option>
     <option value="workactivities">Work Activities</option>
   </select>
 </div>
 
+{% raw %}
 <!-- Skills -->
 <div id="zone-1-skills" class="heatmap-frame">
   <iframe src="../assets/heatmaps/heatmap_skills_jobzone_1.html" width="1200" height="900" frameborder="0"></iframe>
@@ -195,6 +138,7 @@ Add more content here if needed -->
 <div id="zone-5-workactivities" class="heatmap-frame" style="display:none;">
   <iframe src="../assets/heatmaps/heatmap_workactivities_jobzone_5.html" width="1200" height="900" frameborder="0"></iframe>
 </div>
+{% endraw %}
 
 <script>
 function updateHeatmap() {
@@ -208,15 +152,4 @@ function updateHeatmap() {
 document.addEventListener('DOMContentLoaded', updateHeatmap);
 </script>
 
-<p><a href="../">Back to home</a></p>
-
-
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="https://github.com/yangcheng258/green-skill-recommendation">green-skill-recommendation</a> is maintained by <a href="https://github.com/yangcheng258">yangcheng258</a>.</span>
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </main>
-  </body>
-</html>
+[Back to home](../)

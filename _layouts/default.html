@@ -10,6 +10,27 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .gallery {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+      .gallery figure {
+        flex: 1;
+        margin: 0;
+        text-align: center;
+      }
+      .gallery figcaption {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      .gallery img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
     {% include head-custom.html %}
   </head>
   <body>

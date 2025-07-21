@@ -1,27 +1,31 @@
 ---
 layout: default
+title:  "Green Skill-based Recommendation System"
+show_downloads: true
+description: " "
+permalink: /green-skill-based-recommendation-system/
 ---
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
 
 
-<!-- # Green Skills
+# Green Skills
 What are green skills?
 <img src="./assets/pic/Lasso.png" alt="Lasso diagram" class="limited">
 
 
 ----------
-# [Interactive Green Skill Space.](./green-skill-space.md)
+# [Interactive Green Skill Space.](./green-skill-space/green-skill-space.md)
 - For all jobs in the economy, their green category, and their location in green skill space.
 - Green skill space by the level of education, experiences, and training (job zone).
 
 ----------
 
-# [Interactive Green Skill Dissimilarity between any pair of occupations.](./green-skill-dissimilarity.md)
+# [Interactive Green Skill Dissimilarity between any pair of occupations.](./green-skill-dissimilarity/green-skill-dissimilarity.md)
 - Interactive heatmaps show green skill dissimilarity by job zone along with detailed green skill differences.  
 <!-- - A quick preview here! [The green skill dissimilarity heatmap for all jobs. ](./assets/heatmaps/Heatmap_interactive_heatmap_blue.html) -->
 
-<!-- ----------
+----------
 
 # [Data](./data.md)
 - Occupational **Green Potentia Index**.
@@ -32,28 +36,10 @@ What are green skills?
 ----------
 # Others
 - [Skill Space using full set of skills](./assets/skillspace/AllSkillSpace_cluster_plot.html)
-- Crosswalk. -->  
+- Crosswalk.
 
-
-<div class="gallery">
-  <figure>
-    <figcaption>Green Skill-based Recommendation System</figcaption>
-    <a href="{% link green-skill-based-recommendation-system/index.md
- %}">
-      <img src="{{ site.baseurl }}/assets/pic/green-skill-recommendation-system.png" alt="Lasso diagram">
-    </a>
-  </figure>
-
-
-  <figure>
-    <figcaption>Measuring greenness of occupations - a task-based approach</figcaption>
-    <a href="{% link green-occupational-potential-index/index.md %}">
-      <img src="{{ site.baseurl }}/assets/pic/Lasso.png" alt="Placeholder image">
-    </a>
-  </figure>
 
  
-</div>
 
 
 
