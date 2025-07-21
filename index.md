@@ -40,7 +40,7 @@ What are green skills?
   <figure>
     <figcaption>Green Skill-based Recommendation System</figcaption>
     <!-- <a href="{% link green-skill-based-recommendation-system/index.md %}"> -->
-    <a href="{{ '/green-skill-based-recommendation-system/index.md' | relative_url }}">
+    <a href="{{ '/green-skill-based-recommendation-system/index.html' | relative_url }}">
       <img src="{{ site.baseurl }}/assets/pic/green-skill-recommendation-system.png" alt="Lasso diagram">
     </a>
   </figure>
@@ -48,7 +48,8 @@ What are green skills?
  
   <figure>
     <figcaption>Measuring greenness of occupations - a task-based approach</figcaption>
-    <a href="{% link green-occupational-potential-index/index.md %}">
+    <!-- <a href="{% link green-occupational-potential-index/index.md %}"> -->
+        <a href="{{ '/green-occupational-potential-index/index.html' | relative_url }}">
       <img src="{{ site.baseurl }}/assets/pic/Lasso.png" alt="Placeholder image">
     </a>
   </figure>
