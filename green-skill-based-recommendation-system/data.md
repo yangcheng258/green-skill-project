@@ -2,7 +2,7 @@
 layout: default
 title: Data
 description: "Data."
-permalink: /data/
+permalink: /green-skill-based-recommendation-system/data/
 ---
 
 # Download the data
