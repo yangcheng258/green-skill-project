@@ -6,9 +6,10 @@ permalink: /green-skill-based-recommendation-system/green-skill-space/
 ---
 
 # Green Skill Space
+We show each occupation in the “green‐skill” space, with every point representing a job and color‐coded as green or brown.  The distance between any two points reflects their dissimilarity in green‐skill requirements—closer points therefore imply that only minimal retraining in green skills would be needed to transition from one job to the other.  [Back](../)
+
 
 Select a view:
-
  
 
 <select id="map-select"
@@ -16,7 +17,7 @@ Select a view:
         style="font-size: 1.5rem;
                padding: 0.5rem 0.75rem;
                width: 540px;">
- <option value="overview">Overall with 10 occupations highlighted</option>
+ <!-- <option value="overview">Overall with 10 occupations highlighted</option> -->
   <option value="zone-1">JobZone 1 – Little or no preparation</option>
   <option value="zone-2">JobZone 2 – Some preparation</option>
   <option value="zone-3">JobZone 3 – Medium preparation</option>
@@ -26,45 +27,45 @@ Select a view:
 
 
 
-<div id="overview" class="map-frame">
+<!-- <div id="overview" class="map-frame">
   <iframe
     src="../assets/skillspace/GreenSkillSpace_cluster_plot_highlight.html"
     width="1400" height="1100" frameborder="0">
   </iframe>
-</div>
+</div> -->
 
 <div id="zone-1" class="map-frame" style="display:none;">
   <iframe
     src="../assets/skillspace/GreenSkillSpace_JobZone_1.html"
-    width="1400" height="1100" frameborder="0">
+    width="2000" height="1000" frameborder="0">
   </iframe>
 </div>
 
 <div id="zone-2" class="map-frame" style="display:none;">
   <iframe
     src="../assets/skillspace/GreenSkillSpace_JobZone_2.html"
-    width="1400" height="1100" frameborder="0">
+    width="2000" height="1000" frameborder="0">
   </iframe>
 </div>
 
 <div id="zone-3" class="map-frame" style="display:none;">
   <iframe
     src="../assets/skillspace/GreenSkillSpace_JobZone_3.html"
-    width="1400" height="1100" frameborder="0">
+    width="2000" height="1000" frameborder="0">
   </iframe>
 </div>
 
 <div id="zone-4" class="map-frame" style="display:none;">
   <iframe
     src="../assets/skillspace/GreenSkillSpace_JobZone_4.html"
-    width="1400" height="1100" frameborder="0">
+    width="2000" height="1000" frameborder="0">
   </iframe>
 </div>
 
 <div id="zone-5" class="map-frame" style="display:none;">
   <iframe
     src="../assets/skillspace/GreenSkillSpace_JobZone_5.html"
-    width="1400" height="1100" frameborder="0">
+    width="2000" height="1000" frameborder="0">
   </iframe>
 </div>
 
