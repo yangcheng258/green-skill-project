@@ -17,7 +17,7 @@ The system consists of a **[multidimensional green skill space](./green-skill-sp
 
 # Green Skills
 What are green skills? Identify green skill through LASSO regression.
-<img src="./assets/pic/LASSO.png" alt="Lasso diagram" class="limited">
+<img src="./assets/pic/Lasso.png" alt="Lasso diagram" class="limited">
 
 
 # Workflow of Building the Green Skill-based System
