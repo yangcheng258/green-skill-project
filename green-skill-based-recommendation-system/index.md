@@ -26,7 +26,7 @@ What are green skills? Identify green skill through LASSO regression.
 <img src="./assets/pic/green-skill-recommendation-system.png" alt="Workflow diagram" class="limited">
 
 
-
+<!-- 
 ----------
 # [Interactive Green Skill Space.](./green-skill-space/green-skill-space.md)
 - For all jobs in the economy, their green category, and their location in green skill space.
@@ -53,8 +53,48 @@ What are green skills? Identify green skill through LASSO regression.
 - [Skill Space using full set of skills](./assets/skillspace/AllSkillSpace_cluster_plot.html)
 - Crosswalk.
 
+-->
 
- 
+
+
+
+
+
+ <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="./green-skill-space/green-skill-space.md">Interactive Green Skill Space</a></h3>
+      <ul>
+        <li>For all jobs in the economy, their green category, and their location in green skill space.</li>
+        <li>Green skill space by the level of education, experiences, and training (job zone).</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="./green-skill-dissimilarity/green-skill-dissimilarity.md">Interactive Green Skill Dissimilarity</a></h3>
+      <ul>
+        <li>Interactive heatmaps show green skill dissimilarity by job zone along with detailed green skill differences.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="./green-skill-data.md">Data</a></h3>
+      <ul>
+        <li>Occupational <strong>Green Potential Index</strong>.</li>
+        <li>Green occupations.</li>
+        <li>Brown occupations.</li>
+        <li>Skills and job zones.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Others</h3>
+      <ul>
+        <li><a href="./assets/skillspace/AllSkillSpace_cluster_plot.html">Skill Space using full set of skills</a></li>
+        <li>Crosswalk.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 ----------
