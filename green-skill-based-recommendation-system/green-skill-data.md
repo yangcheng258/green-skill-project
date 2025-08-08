@@ -16,7 +16,7 @@ permalink: /green-skill-based-recommendation-system/green-skill-data/
  
 # Green Skills
 What are green skills?
-<img src="../assets/pic/LASSO.png" alt="Lasso diagram" class="limited">
+<img src="../assets/pic/Lasso.png" alt="Lasso diagram" class="limited">
 
 [Back](./index.md)
 <!-- Add more content here if needed -->
