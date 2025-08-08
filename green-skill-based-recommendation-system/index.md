@@ -57,7 +57,7 @@ What are green skills? Identify green skill through LASSO regression.
 
 ----------
 
- <table>
+<table class="gallery-grid">
   <tr>
     <td width="50%" valign="top">
       <h3><a href="./green-skill-space/green-skill-space.md">Interactive Green Skill Space</a></h3>
