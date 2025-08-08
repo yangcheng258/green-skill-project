@@ -18,3 +18,36 @@
   #csv-preview thead {
     background: #f0f0f0;
   }
+
+
+<table class="gallery-grid">
+  </table>
+
+/* --- Styles for the Gallery Grid --- */
+.gallery-grid {
+  width: 100%;
+  border-collapse: separate; /* This allows for spacing between cells */
+  border-spacing: 1rem;    /* Creates the gap between your gallery cards */
+  border: none;              /* Removes any default outer table border */
+}
+
+.gallery-grid td {
+  width: 50%;
+  border: 1px solid #e0e0e0; /* A light border for each card */
+  padding: 1.5rem;             /* Space inside each card */
+  vertical-align: top;       /* Aligns content to the top */
+  border-radius: 8px;          /* Gives the cards rounded corners */
+  background-color: #fdfdfd; /* A very subtle background color */
+  transition: all 0.2s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+/* Optional: Adds a nice lift effect when you hover over a card */
+.gallery-grid td:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+}
+
+.gallery-grid h3 {
+  margin-top: 0; /* Removes extra space above the title in each card */
+}
