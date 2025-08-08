@@ -36,10 +36,7 @@ What are green skills? Identify green skill through LASSO regression.
 
 # [Interactive Green Skill Dissimilarity between any pair of occupations.](./green-skill-dissimilarity/green-skill-dissimilarity.md)
 - Interactive heatmaps show green skill dissimilarity by job zone along with detailed green skill differences.  
-<!-- - A quick preview here! [The green skill dissimilarity heatmap for all jobs. ](./assets/heatmaps/Heatmap_interactive_heatmap_blue.html) -->
-
-
-
+ - A quick preview here! [The green skill dissimilarity heatmap for all jobs. ](./assets/heatmaps/Heatmap_interactive_heatmap_blue.html)
 ----------
 
 # [Data](./green-skill-data.md)
@@ -58,7 +55,7 @@ What are green skills? Identify green skill through LASSO regression.
 
 
 
-
+----------
 
  <table>
   <tr>
