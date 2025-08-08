@@ -88,7 +88,10 @@ What are green skills? Identify green skill through LASSO regression.
       <ul>
         <li><a href="./assets/skillspace/AllSkillSpace_cluster_plot.html">Skill Space using full set of skills</a></li>
         <li>Crosswalk.</li>
-       <li>The working paper is available upon request. yangchengagecon@gmail.com or cheng297@wisc.edu</li>
+       <li> For a copy of the working paper, please email:<br>
+  📧 <a href="mailto:yangchengagecon@gmail.com">yangchengagecon@gmail.com</a><br>
+  📧 <a href="mailto:cheng297@wisc.edu">cheng297@wisc.edu</a>
+</li>
       </ul>
     </td>
   </tr>
