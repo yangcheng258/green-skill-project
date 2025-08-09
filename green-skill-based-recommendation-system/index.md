@@ -26,8 +26,16 @@ What are green skills? Identify green skill through LASSO regression.
 <img src="./assets/pic/green-skill-recommendation-system.png" alt="Workflow diagram" class="limited">
 
 
-<!-- 
+
 ----------
+
+| [Interactive Green Skill Space.](./green-skill-space/green-skill-space.md)      |  [Interactive Green Skill Dissimilarity between any pair of occupations.](./green-skill-dissimilarity/green-skill-dissimilarity.md)      |  
+|:----------------------|:------------------| 
+| - For all jobs in the economy, their green category, and their location in green skill space.          | - For all jobs in the economy, their green category, and their location in green skill space. |  
+| - Green skill space by the level of education, experiences, and training (job zone).| - Green skill space by the level of education, experiences, and training (job zone).  |  
+
+
+<!-- ----------
 # [Interactive Green Skill Space.](./green-skill-space/green-skill-space.md)
 - For all jobs in the economy, their green category, and their location in green skill space.
 - Green skill space by the level of education, experiences, and training (job zone).
@@ -36,7 +44,7 @@ What are green skills? Identify green skill through LASSO regression.
 
 # [Interactive Green Skill Dissimilarity between any pair of occupations.](./green-skill-dissimilarity/green-skill-dissimilarity.md)
 - Interactive heatmaps show green skill dissimilarity by job zone along with detailed green skill differences.  
- - A quick preview here! [The green skill dissimilarity heatmap for all jobs. ](./assets/heatmaps/Heatmap_interactive_heatmap_blue.html)
+   -->
 ----------
 
 # [Data](./green-skill-data.md)
@@ -50,14 +58,17 @@ What are green skills? Identify green skill through LASSO regression.
 - [Skill Space using full set of skills](./assets/skillspace/AllSkillSpace_cluster_plot.html)
 - Crosswalk.
 
--->
-
-
-
 
 ----------
 
-<table class="gallery-grid">
+
+
+
+
+
+
+<!-- Fancy stuff but need toupdat eh code complete.  
+ <table class="gallery-grid">
   <tr>
     <td width="50%" valign="top">
       <h3><a href="./green-skill-space/green-skill-space.md">Interactive Green Skill Space</a></h3>
@@ -95,11 +106,16 @@ What are green skills? Identify green skill through LASSO regression.
       </ul>
     </td>
   </tr>
-</table>
+</table>  -->
 
-
-----------
+ 
 [Back](../index.md)
+
+
+
+- For a copy of the working paper, please email:  
+  📧 [yangchengagecon@gmail.com](mailto:yangchengagecon@gmail.com)  
+  📧 [cheng297@wisc.edu](mailto:cheng297@wisc.edu)
 
 <!-- 
 
